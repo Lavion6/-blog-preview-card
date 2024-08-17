@@ -1,0 +1,83 @@
+:root {
+    --color-yellow: #f4d04e;
+    --color-black: #111111;
+    --color-grey: #6b6b6b;
+    --color-white: #ffffff;
+    --space-200: 24px;
+    --space-150: 12px;
+    --space-100: 8px;
+    --space-50: 4px;
+  }
+  
+  @font-face {
+    font-family: 'Figtree';
+    src: url('font/Figtree-VariableFont_wght.ttf')
+  }
+  
+  .text {
+      line-height: 150%;
+      letter-spacing: 0px;
+      font-family: 'Figtree';
+  }
+  
+  body {
+      background-color: var(--color-yellow);
+  } 
+  
+  .image1 {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: var(--space-200);
+  }
+  
+  .card {
+      background-color: var(--color-white);
+      margin: 0 auto;
+      border-radius: 20px;
+      border: solid 1px var(--color-black);
+      padding: var(--space-200);
+      width: 327px;
+      box-sizing: border-box;
+      box-shadow: var(--space-100) var(--space-100) 0 0 #000;
+  }
+  
+  .learn {
+      background-color: var(--color-yellow);
+      margin-bottom: var(--space-150);
+      padding: var(--space-50) var(--space-150);
+      border-radius: 4px;
+      font-weight: 800;
+  }
+  
+  .publish-date {
+      display: block;
+      margin-top: var(--space-200);
+      font-size: 12px;
+      font-weight: 500;
+  }
+  
+  .card-title {
+      margin: var(--space-150) 0;
+      font-size: 20px;
+      font-weight: 800;
+      color: var(--color-black)
+  }
+  
+  .card-description {
+      margin-bottom: var(--space-200);
+      font-size: 14px;
+      color: var(--color-grey);
+      font-weight: 500;
+  }
+  
+  .author-image {
+      width: 32px;
+      vertical-align: middle;
+      margin-right: var(--space-150);
+  }
+  
+  .author-name {
+      font-size: 14px;
+      font-weight: 800;
+      line-height: 1.5;
+  }
